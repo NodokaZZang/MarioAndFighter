@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameObj">
+      <UniqueIdentifier>{a1fa6b89-577e-4561-954c-dce464fc6bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d33cffd1-e34c-4555-89a5-2ff1e4f8442f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{33d75952-d282-4236-ba81-0e468e5ab329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d4da671f-31a4-4040-9638-db00633f6b65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MarioAndFighterApp.cpp" />
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="D2D1Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWnd.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManger.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sceen.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SceenManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSceen.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingSceen.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileMonster.cpp">
+      <Filter>GameObj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MarioAndFighterApp.h" />
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="D2D1Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWnd.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManger.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sceen.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SceenManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSceen.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingSceen.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileMonster.h">
+      <Filter>GameObj</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
